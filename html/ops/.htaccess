@@ -1,0 +1,6 @@
+
+AuthName "optima"
+AuthType Basic
+AuthUserFile /var/www/optima//html/ops/.htpasswd
+require valid-user
+

@@ -1,0 +1,2 @@
+<!-- <scheduler>http://83.149.248.68/optima_cgi/cgi</scheduler> -->
+<link rel="boinc_scheduler" href="http://83.149.248.68/optima_cgi/cgi">
