@@ -16,7 +16,7 @@
         <app_dir>/var/www/optima/apps</app_dir>
         <download_dir>/var/www/optima/download</download_dir>
         <fuh_debug_level>3</fuh_debug_level>
-        <master_url>http://83.149.248.68/</master_url>
+        <master_url>http://83.149.248.65/</master_url>
         <host>ft-boinc2</host>
         <db_name>optima</db_name>
         <shmem_key>0x1111741a</shmem_key>
