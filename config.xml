@@ -30,6 +30,8 @@
         <daily_result_quota>500</daily_result_quota>
         <one_result_per_user_per_wu>0</one_result_per_user_per_wu>
         <max_wus_to_send>50</max_wus_to_send>
+        <recaptcha_public_key>6LfsAR8UAAAAAK6N2VJGPClhAIiZCa7j2QBq0V9h</recaptcha_public_key>
+        <recaptcha_private_key>6LfsAR8UAAAAAKUsqtZqYnSHwC74LH8ryHgVrDr9</recaptcha_private_key>
     </config>
     <tasks>
         <task>

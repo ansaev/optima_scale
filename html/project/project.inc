@@ -36,7 +36,7 @@ define("POST_REPORT_EMAILS", "moderator1@$master_url|moderator2@$master_url");
 
 //-------------- Caching
 
-//define("MEMCACHE_SERVERS", "127.0.0.1:11211");
+# define("MEMCACHE_SERVERS", "83.149.248.72:11211,83.149.248.68:11211");
 
 //-------------- CSS styling
 
@@ -48,7 +48,7 @@ define("POST_REPORT_EMAILS", "moderator1@$master_url|moderator2@$master_url");
 
 define("FORUM_QA_MERGED_MODE", true);
     // Set to true to merge Message boards and Q&A section
-define ("DISABLE_PROFILES", true);
+define ("DISABLE_PROFILES", false);
     // enable profiles only after enabling reCAPTCHA
     // http://boinc.berkeley.edu/trac/wiki/ProtectionFromSpam
 define("USE_STOPFORUMSPAM", true);
