@@ -1,16 +1,16 @@
 <?xml version="1.0" ?>
 <boinc>
     <config>
-        <upload_dir>/var/www/optima/upload</upload_dir>
+        <upload_dir>/var/www/optima/storage-pool/upload</upload_dir>
         <send_result_abort>1</send_result_abort>
-        <long_name>‘TestOptima’</long_name>
+        <long_name>TestOptima</long_name>
         <sched_debug_level>3</sched_debug_level>
         <cache_md5_info>1</cache_md5_info>
-        <upload_url>http://83.149.248.68/optima_cgi/file_upload_handler</upload_url>
+        <upload_url>http://83.149.248.65/optima_cgi/file_upload_handler</upload_url>
         <disable_account_creation>0</disable_account_creation>
         <uldl_dir_fanout>1024</uldl_dir_fanout>
         <disable_web_account_creation>0</disable_web_account_creation>
-        <download_url>http://83.149.248.68/download</download_url>
+        <download_url>http://83.149.248.65/storage-pool/download</download_url>
         <db_user>saevsky</db_user>
         <log_dir>/var/www/optima/log_ft-boinc2</log_dir>
         <app_dir>/var/www/optima/apps</app_dir>
