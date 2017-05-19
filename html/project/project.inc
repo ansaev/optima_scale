@@ -12,8 +12,8 @@ require_once("../inc/util.inc");
 
 //-------------- Project name and owner
 
-define("PROJECT", "REPLACE WITH PROJECT NAME");
-define("COPYRIGHT_HOLDER", "REPLACE WITH COPYRIGHT HOLDER");
+define("PROJECT", "OPTIMA Scale");
+define("COPYRIGHT_HOLDER", "OPTIMA Scale");
 
 //-------------- URLs and directories
 
@@ -110,7 +110,7 @@ function make_php_mailer() {
 //
 function project_banner($title, $prefix, $is_main) {
     if ($is_main) {
-        echo '<img class="img-responsive" src="img/water.jpg">';
+        echo '<img class="img-responsive style="width=100%;" src="img/net.jpg">';
     }
     sample_navbar(secure_url_base(), get_logged_in_user(false), false);
     if ($title) {

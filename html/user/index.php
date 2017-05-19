@@ -72,20 +72,11 @@ function left(){
             } else {
                 echo "
                     <p>
-                    XXX is a research project, based at <a href=#>YYY</a>,
-                    that uses Internet-connected
-                    computers to do research in XXX.
-                    You can contribute to our research
-                    by running a free program on your computer.
+                    OPTIMA Scale тестовый проект цель которго разработка отказоустойчивой и масшатабируемой конфигурации
+                     BOINC сервера.
                     </p>
                 ";
             }
-            echo "
-                <ul>
-                <li> <a href=#>Our research</a>
-                <li> <a href=#>Our team</a>
-                </ul>
-            ";
             echo "</ul>";
             if (!$user) {
                 if ($no_computing) {
