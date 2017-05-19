@@ -21,7 +21,7 @@
 // TODO: rewrite this using the DB abstraction layer
 // First, edit the set of forums (below) and remove the following line
 
-die("edit script to use your forum names, and remove the die()\n");
+# die("edit script to use your forum names, and remove the die()\n");
 
 $cli_only = true;
 require_once("../inc/forum_db.inc");
@@ -58,19 +58,19 @@ function create_forum($category, $orderID, $title, $description, $is_dev_blog=0)
 db_init();
 
 $catid = create_category(0, "", 0);
-create_forum($catid, 0, "News", "News from this project", 1);
-create_forum($catid, 1, "Science", "Discussion of this project\'s science");
-create_forum($catid, 2, "Number crunching", "Credit, leaderboards, CPU performance");
-create_forum($catid, 3, "Cafe", "Meet and greet other participants");
+create_forum($catid, 0, "Новости", "Новости проекта", 1);
+#create_forum($catid, 1, "Science", "Discussion of this project\'s science");
+#create_forum($catid, 2, "Number crunching", "Credit, leaderboards, CPU performance");
+#create_forum($catid, 3, "Cafe", "Meet and greet other participants");
 
 $catid = create_category(0, "Platform-specific problems", 1);
-create_forum($catid, 0, "Windows", "Installing and running BOINC on Windows");
-create_forum($catid, 1, "Unix/Linux", "Installing and running BOINC on Unix and Linux");
-create_forum($catid, 2, "Macintosh", "Installing and running BOINC on Mac OS/X");
-$catid = create_category(1, "General issues", 1);
-create_forum($catid, 3, "Getting started", "Creating your account");
-create_forum($catid, 4, "Preferences", "Using preferences");
-create_forum($catid, 6, "Web site", "Issues involving this web site");
+create_forum($catid, 0, "Windows", "Установка и запуск BOINC на Windows");
+create_forum($catid, 1, "Unix/Linux", "Установка и запуск BOINC на Unix and Linux");
+#create_forum($catid, 2, "Macintosh", "Installing and running BOINC on Mac OS/X");
+#$catid = create_category(1, "General issues", 1);
+#create_forum($catid, 3, "Getting started", "Creating your account");
+#create_forum($catid, 4, "Preferences", "Using preferences");
+#create_forum($catid, 6, "Web site", "Issues involving this web site");
 
 $cvs_version_tracker[]="\$Id$";  //Generated automatically - do not edit
 ?>
