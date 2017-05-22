@@ -1,0 +1,6 @@
+.idea
+log_ft-boinc*/
+pid_ft-boinc*/
+*.pyc
+*~
+run_state_ft-boinc3.xml
